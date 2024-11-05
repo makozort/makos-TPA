@@ -1,25 +1,28 @@
+![minecraft_title2](https://github.com/user-attachments/assets/cf7040ad-3db6-4030-ab6c-eed73af4a255)
 
-Installation information
-=======
+**Mako's TPA** is a simple mod that adds the classic /tpa and /tpaccpet to minecraft.
+## Features
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+### /tpa
+- /tpa {target} will send a request to the user, who will have to accept it.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+### /tpaccept
+- /tpaccept {target} will accept the targets request if there is one pending, uniquely, this mod allows you to have multple requests pending, but only 1 outgoing
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+### Dash Enchantment
+- Double-tap the jump key to *dash* forward with this new enchantment. It’s ideal for quick movement and adds a new layer of agility to your adventures.
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+## Credits
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+- **Coding**: Makozort
+
+## Community
+
+Join our community on [Discord](https://discord.gg/adqCYHMdT6) for updates, support, and to share your feedback!
+
+## Source Code
+
+Check out the source code on [GitHub](https://github.com/makozort/makos-TPA) for more information and contributions.
+
+---
+
